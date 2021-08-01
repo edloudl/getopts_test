@@ -14,6 +14,7 @@ Building package for Redhat system
     write a test with BATS to verify that script suits all the provided conditions above.
     create rpm package of the script to be installed on the system
 
+
     NOTE: use this link as guide line
 
     create a pipeline to deploy script, test, packaging of rpm and deployment of that rpm to RedHat based system.
