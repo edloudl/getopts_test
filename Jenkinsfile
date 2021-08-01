@@ -82,7 +82,7 @@ rm -rf $RPM_BUILD_ROOT
 	stage('Tar GZ the app folder'){
 		steps{
 		sh '''
-                    tar cvzf /home/vagrant/rpmbuild/SOURCES/hello-0.0.1.tgz hello
+                    tar cvzf /home/vagrant/rpmbuild/SOURCES/hello-0.0.1.tgz hello-0.0.1
 		   '''
 		}
 	}
